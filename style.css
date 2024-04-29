@@ -371,6 +371,14 @@ footer {
         align-items: center;
     }
     
+    #nargylla {
+    -webkit-text-stroke: 0.5px var(--cor-stroke-principal);
+    }
+
+    #cloviel {
+    -webkit-text-stroke: 0.5px var(--cor-stroke-secundario);
+    }
+    
     .foto-perfil {
         width: 20rem;
         height: 20rem;

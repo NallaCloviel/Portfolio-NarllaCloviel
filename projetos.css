@@ -37,10 +37,10 @@
     align-items: flex-start;
     width: 310px;
     height: 260px;
-    background-color: rgba(190, 250, 93, 0.801);
+    background-color: #95d579;
     margin-top: 50px;
     border-radius: 20px;
-    box-shadow: 0 35px 75px #48ff0091;
+    box-shadow: 0 0px 20px #48ff0091;
     transition: all ease 1000ms;
 }
 

@@ -275,7 +275,7 @@ button {
     }
     .titulo_aboutme{
         font-size: 20px;
-        -webkit-text-stroke: 2px black;
+        -webkit-text-stroke: 1.3px black;
     }
     
     .aboutme_principal{
@@ -323,7 +323,7 @@ button {
     .titulo_habilidades, .titulo_soft{
         font-size: 1.25rem;
         margin: 30px 0;
-        -webkit-text-stroke: 2px black;
+        -webkit-text-stroke: 1.3px black;
     }
     
     .flip-card-container {

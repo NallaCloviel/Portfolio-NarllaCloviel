@@ -108,12 +108,12 @@ header,
 
 #nargylla {
     color: var(--cor-titulo-nargylla);
-    -webkit-text-stroke: 0.1px var(--cor-stroke-principal);
+    -webkit-text-stroke: 0.2px var(--cor-stroke-principal);
 }
 
 #cloviel {
     color: #33e84b;
-    -webkit-text-stroke: 0.1px var(--cor-stroke-secundario);
+    -webkit-text-stroke: 0.2px var(--cor-stroke-secundario);
 }
 
 .foto-perfil {

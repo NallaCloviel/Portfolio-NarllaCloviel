@@ -243,6 +243,7 @@
     
     .titulo_carreira{
         font-size: 20px;
+        -webkit-text-stroke: 1px black;
     }
     
     .carreira_divisao{
@@ -256,7 +257,7 @@
     }
 
     #data{
-        width: 40%;
+        width: 60%;
     }
     .educacao,.voluntariado{
         width: 90%;
@@ -270,6 +271,7 @@
     .titulo_conquista{
         font-size: 1.25rem;
         margin-top: 50px;
+        -webkit-text-stroke: 1px black;
     }
     
     footer {

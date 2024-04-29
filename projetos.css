@@ -114,3 +114,15 @@ h2{
     border: 2px solid #875211;
 }
 
+@media screen and(max-width:720px){
+    #meusProjetos{
+    -webkit-text-stroke: 1.3px black;
+    }
+
+#titulo_frontend, #titulo_dados{
+    font-family: var(--fonte-cabecalho);
+    margin-top: 60px;
+    font-size: 30px;
+    -webkit-text-stroke: 1.3px black;
+    }
+}

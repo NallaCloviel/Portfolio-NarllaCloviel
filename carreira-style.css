@@ -1,0 +1,278 @@
+.carreira{
+    background-color: var(--cor-de-fundo);
+    margin: 0px 40px 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(55, 121, 2, 0.63);
+    margin: 50px 20px;
+    padding: 2px;
+}
+
+.conteiner_carreira_conteudo{
+    padding: 30px;
+}
+
+.titulo_carreira{
+    font-family: var(--fonte-titulo);
+    font-weight: 800;
+    color: var(--cor-titulo-nargylla);
+    -webkit-text-stroke: 0.1px var(--cor-stroke-principal);
+    font-size: 30px;
+    line-height:40px;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid;
+}
+
+.carreira_divisao{
+    width: 100%;
+    padding: 30px;
+}
+
+.carreira_divisao:hover{
+    transition-duration: 0.5s;
+}
+
+.carreira_divisao:hover>div:hover .titulo_dev_profissional #img_carreira {
+    transform: scale(1.25);
+}
+
+.carreira_divisao:hover>div:not(:hover) {
+    opacity: 0.5;
+}
+
+.titulo_desen_profissional{
+    transition-duration: 0.3s;
+    margin-top: 0;
+    color: var(--cor-de-texto);
+    font-size: 1.2rem;
+}
+
+#img_carreira {
+    color: rgb(253, 237, 4);
+    background: #397402;
+    border: 2px solid black;
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    line-height: 42px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 8px;
+    transition-duration: 0.3s;
+    margin-bottom: 20px;
+}
+
+.educacao,.voluntariado {
+    float: left;
+}
+
+.educacao small,.voluntariado small {
+    display: block;
+    opacity: 0.8;
+}
+
+.educacao ul li,.voluntariado ul li {
+    position: relative;
+    margin-left: 14px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    color: #4b2c06;
+    font-weight: 500;
+}
+
+.educacao ul li:hover::before, .voluntariado ul li:hover::before {
+    animation: circle 1.2s infinite;
+}
+
+.educacao ul li:hover span,.voluntariado ul li:hover span {
+    color: rgb(210, 247, 1);
+    font-weight: 700;
+    text-shadow: 0px 0px 10px rgb(139, 85, 3);
+}
+
+@keyframes circle {
+    from {
+        box-shadow: 0 0 0 0px rgb(248, 232, 11);
+    }
+
+    to {
+        box-shadow: 0 0 0 6px rgba(168, 13, 13, 0);
+    }
+}
+
+.educacao ul li:first-of-type::before,
+.voluntariado ul li:first-of-type::before {
+    width: 10px;
+    height: 10px;
+    left: -1px;
+}
+
+.educacao ul li:last-of-type,
+.voluntariado ul li:last-of-type {
+    padding-bottom: 3px;
+}
+
+.educacao ul li:last-of-type::after,
+.voluntariado ul li:last-of-type::after {
+    border-radius: 1.5px;
+}
+
+.educacao ul li::before,
+.educacao ul li::after,
+.voluntariado ul li::before,
+.voluntariado ul li::after {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.educacao ul li::before,
+.voluntariado ul li::before {
+    width: 7px;
+    height: 7px;
+    border: 3px solid white;
+    background: orange;
+    border-radius: 50%;
+    left: 0px;
+    z-index: 1;
+}
+
+.educacao ul li::after,.voluntariado ul li::after {
+    width: 3px;
+    height: 100%;
+    background: white;
+    left: 5px;
+    top: 0;
+}
+
+.educacao ul li span,.voluntariado ul li span {
+    transition-duration: 0.3s;
+}
+
+.educacao {
+    width: 48%;
+    background: #bdf885a6;
+    padding: 15px;
+    margin: 0 4% 15px 0;
+    border-radius: 20px;
+}
+
+.voluntariado {
+    width: 48%;
+    background: #bdf885a6;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#data{
+    background-color: rgba(37, 56, 1, 0.507);
+    width: 30%;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.titulo_conquista{
+    font-family: var(--fonte-titulo);
+    font-weight: 800;
+    margin-top: 600px;
+    color: var(--cor-titulo-nargylla);
+    -webkit-text-stroke: 0.1px var(--cor-stroke-principal);
+    font-size: 30px;
+    line-height:40px;
+    position: relative;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid;
+}
+
+.img-conquista{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 40% 0;
+}
+.conquistas{
+    justify-content: center;
+    background-color: rgba(16, 49, 3, 0.425);
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 140px;
+    color: #afe77a;
+}
+
+.conquistas:hover{
+    transition: ease-in 0.1s;
+    border: 2px solid yellow ;
+    box-shadow: 0px 0px 20px gold;
+    color: aliceblue;
+}
+
+.divisao-conquista{
+    display: flex;
+    gap: 30px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text-conquista{
+    text-align: center;
+    font-size: 13px;
+}
+
+.parag-conquista{
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ano-conq{
+    text-align: center;
+}
+
+@media screen and (max-width:720px){
+    #header_carreira{
+        padding-left: 130px;
+        padding-top: 60px;
+    }
+
+    .carreira{
+        margin: 50px 40px 0px;
+    }
+    
+    .titulo_carreira{
+        font-size: 20px;
+    }
+    
+    .carreira_divisao{
+        padding: 8px;
+        display: grid;
+        justify-items: center;
+    }
+    
+    .titulo_desen_profissional{
+        font-size: 1.1rem;
+    }
+
+    #data{
+        width: 40%;
+    }
+    .educacao,.voluntariado{
+        width: 90%;
+    }
+    
+    #img_carreira {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .titulo_conquista{
+        font-size: 1.25rem;
+        margin-top: 50px;
+    }
+    
+    footer {
+        margin-top: 2rem;
+    }
+}

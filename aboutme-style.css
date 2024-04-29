@@ -1,0 +1,355 @@
+.conteiner_aboutme{
+    margin: 50px 20px;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: rgba(56, 202, 34, 0.13);
+}
+
+.conteiner_aboutme_conteudo{
+    background-color: var(--cor-de-fundo);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(55, 121, 2, 0.63);
+}
+.titulo_aboutme{
+    font-family: var(--fonte-titulo);
+    font-weight: 800;
+    color: var(--cor-titulo-nargylla);
+    -webkit-text-stroke: 0.1px var(--cor-stroke-principal);
+    font-size: 30px;
+    line-height:40px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.titulo_aboutme:before {
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #2c9b00;
+    width: 120px;
+    left: 100px;
+    bottom:0
+}
+
+.aboutme_principal{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #1c7909;
+}  
+
+.carrossel_conteudo {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    background-color: #b3232381; 
+    height: 300px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 400px;
+}
+
+.painel {
+    width: 400px;
+    height: 300px;
+}
+
+.content {
+    padding: 20px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: #00ff37c2; 
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.aboutme_principal_texto{
+    text-align: justify;
+    width: 60%;
+}
+
+#aboutme_principal_titulo{
+    font-weight: bolder;
+    color: rgba(65, 151, 8, 0.747);
+    -webkit-text-stroke: 0.9px black;
+    font-size: 2rem;
+    text-shadow: 0px 0px 20px rgba(219, 187, 4, 0.514);
+}
+
+#aboutme_principal_paragrafo{
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 1.11rem;
+    font-weight: 500;
+    color: var(--cor-de-texto);
+    width: auto;
+}
+
+.destaque{
+    font-weight:700;
+    color: #9e7505;
+}
+
+.titulo_habilidades, .titulo_soft{
+    font-family: var(--fonte-titulo);
+    font-size: 35px;
+    margin: 50px 0;
+    color: var(--cor-titulo-nargylla);
+    -webkit-text-stroke: 0.1px rgb(24, 24, 24);
+
+}
+
+.flip-card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 2px solid green;
+    padding-bottom: 60px;
+}
+
+.flip-card {
+    width: 150px;
+    height: 200px;
+    perspective: 1000px;
+    cursor: pointer; 
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+.img-carta {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.soft_texto {
+    font-size: 20px;
+    padding: 10px 0 1px;
+    color: var(--cor-de-texto);
+    font-weight: 500;
+}
+
+.container_soft_skill {
+    width: 100%;
+    border-radius: 15px;
+    width: 350px;
+    height: 20px;
+    margin-top: 10px;
+    border: 2px solid rgba(5, 90, 5, 0.719);
+    box-shadow: 0 0 10px rgb(14, 107, 2);
+    justify-content: center;
+    background-color: #fdfb5e46;
+}
+
+.skill {
+    font-weight: 700;
+    text-align: right;
+    display: block;
+    height: 16px;
+    background-color: rgb(148, 238, 5);
+    border-radius: 15px;
+    animation: progress 5s ease-in 1;
+    color: #9e7505;
+    font-size: 12px;
+}
+
+
+.colunas-soft {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px 0px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+  
+.coluna1{
+    width: 400px;
+}
+
+.lideranca {
+    width: 75%;
+}
+
+.equipe{
+    width: 80%;
+}
+
+.comunicacao{
+    width:87%
+}
+
+.tempo{
+    width: 70%;
+}
+
+.criativo{
+    width:82%;
+}
+
+.adaptacao{
+    width:90%;
+}
+
+@keyframes progress {
+    from {
+      width: 0;
+    }
+}
+
+@media screen and (max-width:720px){
+    .menu_nav {
+        flex-direction: colum;
+        align-items: flex-start;
+    }
+
+    .lista_menu {
+        margin-right: 30px;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+    }
+
+    .lista_menu_texto {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+    .menu__link__img {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .conteiner_aboutme{
+        margin: 20px 10px;
+        padding: 2px;
+    }
+    
+    .conteiner_aboutme_conteudo{
+        padding: 20px;
+        box-shadow: 0px 0px 30px rgba(55, 121, 2, 0.63);
+    }
+    .titulo_aboutme{
+        font-size: 20px;
+    }
+    
+    .aboutme_principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4rem;
+    }  
+    
+    .carrossel_conteudo {
+        width: 300px;
+        height: 225px;
+    }
+
+    img{
+        width: 300px;
+    }
+    
+    button {
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+    .aboutme_principal_texto{
+        text-align: justify;
+        width: 90%;
+    }
+
+    .barra_de_progresso{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #aboutme_principal_titulo{
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    
+    #aboutme_principal_paragrafo{
+        margin-top: 12px;
+        font-size: 0.8rem;
+    }
+    
+    .titulo_habilidades, .titulo_soft{
+        font-size: 1.25rem;
+        margin: 30px 0;
+    }
+    
+    .flip-card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 130px);
+        justify-items: center;
+        gap: 20px;
+    }
+    
+    .flip-card {
+        width: 100px;
+        height: 150px;
+    }
+    
+    .soft_texto {
+        font-size: 1rem;
+    }
+    
+    .container_soft_skill {
+        width: 280px;
+    }
+
+    .colunas-soft {
+        justify-content: flex-start;
+
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+}

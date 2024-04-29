@@ -372,11 +372,11 @@ footer {
     }
     
     #nargylla {
-    -webkit-text-stroke: 0.5px var(--cor-stroke-principal);
+    -webkit-text-stroke: 1px var(--cor-stroke-principal);
     }
 
     #cloviel {
-    -webkit-text-stroke: 0.5px var(--cor-stroke-secundario);
+    -webkit-text-stroke: 1px var(--cor-stroke-secundario);
     }
     
     .foto-perfil {

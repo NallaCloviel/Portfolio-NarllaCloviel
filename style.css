@@ -386,12 +386,15 @@ footer {
     }
     
     .principal__texto {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
-    
+
+    .animated {
+        font-size: 1.6rem
+    }
     .principal__texto_p {
         font-size: 1.2rem;
-        width:300px;
+        width:290px;
     }
     
     #chamada_redes {

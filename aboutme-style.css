@@ -123,6 +123,8 @@ button {
     font-size:15px;
     font-weight:600;
     text-align:center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 .flip-card-container {

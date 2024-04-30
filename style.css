@@ -423,10 +423,14 @@ footer {
         padding: 8px;
     }
     
-    
     .icon {
         width: 3rem;
         height: 3rem;
+    }
+
+    .icon:hover {
+    width: 3.2rem;
+    height: 3.2rem;
     }
     
     footer {

@@ -120,9 +120,7 @@ h2{
     }
 
 #titulo_frontend, #titulo_dados{
-    font-family: var(--fonte-cabecalho);
     margin-top: 60px;
-    font-size: 30px;
     -webkit-text-stroke: 1.3px black;
     }
 }

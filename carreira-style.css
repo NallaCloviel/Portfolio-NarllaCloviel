@@ -27,6 +27,7 @@
 .carreira_divisao{
     width: 100%;
     padding: 30px;
+    cursor: context-menu;
 }
 
 .carreira_divisao:hover{
@@ -200,6 +201,7 @@
     width: 300px;
     height: 140px;
     color: #afe77a;
+    cursor: context-menu;
 }
 
 .conquistas:hover{
